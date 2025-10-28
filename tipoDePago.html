@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipo de pago</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="containertipopago">
+        <h1 class="titulotipopago">TipoDePago</h1>
+
+        <form class="formulariotipopago">
+            <label class="labeltipopago" for="tipodepago">TipoDePago:</label>
+            <select id="tipodepago" class="selecttipopago">
+                <option value="contado" selected>Contado</option>
+                <option value="credito">Crédito</option>
+                <option value="transferencia">Transferencia</option>
+            </select>
+
+            <button type="button"class="botontipopago" onclick="window.location.href='pagoContado.html'">Siguiente</button>
+            <button type="button" class="botontipopago" onclick="window.location.href='pagoTarjeta.html'">Siguiente tarjeta</button>
+        </form>
+    </div>
+</body>
+</html>

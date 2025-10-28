@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagar con tarjeta</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="containerpagotarjeta">
+        <h1 class="titulopagotarjeta">PagoTarjeta</h1>
+        <form class="formulariopagotarjeta">
+            <label class="labelpagotarjeta" for="numerotarjeta">Número de tarjeta:</label>
+            <input type="text" id="numerotarjeta" class="inputpagotarjeta" value="4242 4242 4242 4242">
+            <label class="labelpagotarjeta" for="nombretarjeta">Nombre:</label>
+            <input type="text" id="nombretarjeta" class="inputpagotarjeta" value="Juan Pérez Soto">
+            <label class="labelpagotarjeta" for="fechavencimiento">Fecha de vencimiento:</label>
+            <input type="text" id="fechavencimiento" class="inputpagotarjeta" value="10/27">
+            <label class="labelpagotarjeta" for="cvv">CVV:</label>
+            <input type="text" id="cvv" class="inputpagotarjeta" value="123">
+            <label class="labelpagotarjeta" for="cantidadpagar">Cantidad a pagar con tarjeta:</label>
+            <input type="text" id="cantidadpagar" class="inputpagotarjeta" value="1400">
+            <label class="labelpagotarjeta">Monto restante:</label>
+            <input type="text" class="inputpagotarjeta" value="1280" readonly>
+            <button type="button" class="botonpagotarjeta"onclick="window.location.href='opciones.html'">Confirmar</button>
+        </form>
+    </div>
+</body>
+</html>

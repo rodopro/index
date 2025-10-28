@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nueva venta</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="containernuevaventa">
+        <h1 class="titulonuevaventa">Nueva Venta</h1>
+
+        <div class="columnasnuevaventa">
+            <div class="columnaizqnuevaventa">
+                <form class="formularionuevaventa">
+                    <label class="labelnuevaventa">Seleccionar producto (planta):</label>
+                    <select id="producto" class="selectnuevaventa">
+                        <option>Rosa</option>
+                        <option>Tamarindo</option>
+                        <option>Helecho</option>
+                        <option>Orquídea</option>
+                    </select>
+                    <label class="labelnuevaventa">Agregar cantidad:</label>
+                    <input class="inputnuevaventa" >
+                    <button class="botonnuevaventa">Agregar</button>
+                </form>
+            </div>
+
+            <div class="columnadernuevaventa">
+                <div class="clientenuevaventa">
+                    <h2 class="fechanuevaventa">Fecha: 28/10/2025</h2>
+                    <h2 class="nombrenuevaventa">Nombre: Juan Pérez Soto</h2>
+                </div>
+                <table class="tablanuevaventa">
+                    <thead>
+                        <tr>
+                            <th>Producto</th>
+                            <th>Cantidad</th>
+                            <th>Precio Unitario</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Tamarindo</td>
+                            <td>7</td>
+                            <td>2050</td>
+                            <td>14350</td>
+                        </tr>
+                        <tr>
+                            <td>Helecho</td>
+                            <td>2</td>
+                            <td>90</td>
+                            <td>180</td>
+                        </tr>
+                        <tr>
+                            <td>Orquídea</td>
+                            <td>3</td>
+                            <td>250</td>
+                            <td>750</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="totalnuevaventa">
+                    <p class="totalventanuevaventa"><strong>Total de la Venta:</strong> 15280</p>
+                    <button class="botonpagarnuevaventa"onclick="window.location.href='tipoDePago.html'">Pagar</button>
+                    <button class="botonpagarnuevaventa"onclick="window.location.href='pagoTarjeta.html'">Pagar(solo en linea)</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
