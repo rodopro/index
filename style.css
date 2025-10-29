@@ -5,7 +5,7 @@
   font-family: "Arial", sans-serif;
 }
 .bodyindex {
-  background-image: url("img/fondo.jpg");
+ background-image: url("fondo.jpg");
   background-size: cover;
   display: flex;
   align-items: center;
@@ -121,7 +121,7 @@
   transform: translateX(-50%);
 }
 .bodyopc {
-  background-image: url("img/fondo.jpg");
+  background-image: url("fondo.jpg");
   align-items: center;
   justify-content: center;
 }
