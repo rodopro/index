@@ -815,3 +815,23 @@
 .botonimprimirhistorialventas:hover {
     background-color: rgb(0, 81, 211);
 }
+
+.btnregresar {
+  background-color: #57c2d7;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  position: fixed;     /* siempre visible en la esquina */
+  bottom: 20px;
+  left: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.btnregresar:hover {
+  background-color: #7bb6c2;
+}
